@@ -20,7 +20,7 @@ extension UserDefaults {
         set(val){
             
             // 空の場合
-            if !val.isEmpty {
+            if val.isEmpty {
                 return
             }
             

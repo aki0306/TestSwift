@@ -85,9 +85,6 @@
                                                 </constraints>
                                             </view>
                                         </subviews>
-                                        <constraints>
-                                            <constraint firstAttribute="height" priority="1" constant="304" id="JC7-Ae-wdW"/>
-                                        </constraints>
                                     </stackView>
                                 </subviews>
                                 <constraints>

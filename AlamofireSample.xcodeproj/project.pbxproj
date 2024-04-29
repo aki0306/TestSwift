@@ -186,10 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				1FC543BC2BDE32C6001126D2 /* View */,
-				1F4531982B646BF100BEBEB0 /* BrowsingHistoryViewController.storyboard */,
-				1F4531962B646BF100BEBEB0 /* BrowsingHistoryViewController.swift */,
-				1FDE89F12BDC8B32006E6E1D /* SearchViewController.storyboard */,
-				1FDE89F32BDC8B46006E6E1D /* SearchViewController.swift */,
+				1FC543C72BDF20A1001126D2 /* ViewController */,
 			);
 			path = Serach;
 			sourceTree = "<group>";
@@ -201,6 +198,17 @@
 				1FC543BD2BDE3344001126D2 /* BrowsingHistoryCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		1FC543C72BDF20A1001126D2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1F4531982B646BF100BEBEB0 /* BrowsingHistoryViewController.storyboard */,
+				1F4531962B646BF100BEBEB0 /* BrowsingHistoryViewController.swift */,
+				1FDE89F12BDC8B32006E6E1D /* SearchViewController.storyboard */,
+				1FDE89F32BDC8B46006E6E1D /* SearchViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		1FDE89EC2BDC212F006E6E1D /* Common */ = {

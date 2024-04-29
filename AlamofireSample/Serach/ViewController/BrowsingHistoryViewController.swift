@@ -12,9 +12,15 @@ class BrowsingHistoryViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var tableViewHeight: NSLayoutConstraint!
     
-    let yourDataArray: [Int] = []
+    var data: [String] = [] {
+        didSet {
+            self.tableView.reloadData()
+            self.tableView.layoutIfNeeded()
+            self.tableView.updateConstraints()
+        }
+        
+    }
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -38,13 +44,14 @@ class BrowsingHistoryViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.data = UserDefaults.test
+    }
+    
     override func viewWillLayoutSubviews() {
-        
         super.viewWillLayoutSubviews()
         self.tableViewHeight.constant = CGFloat(self.tableView.contentSize.height)
-        
-//        layoutIfNeeded()
-//        updateConstraints()
     }
     
     private func initView() {
@@ -54,8 +61,8 @@ class BrowsingHistoryViewController: UIViewController {
         self.tableView.isScrollEnabled = false
         
         self.tableView.registerCustomCell(BrowsingHistoryCell.self)
+        
     }
-    
 }
 
 extension BrowsingHistoryViewController: UITableViewDelegate {
@@ -64,7 +71,7 @@ extension BrowsingHistoryViewController: UITableViewDelegate {
 extension BrowsingHistoryViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 20
+        return self.data.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
