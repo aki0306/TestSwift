@@ -237,8 +237,8 @@
             filePath = "AlamofireSample/Serach/View/ThemaSearchCell.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
             landmarkName = "didTapThemaSearch(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -253,8 +253,8 @@
             filePath = "AlamofireSample/Serach/ViewController/BrowsingHistoryViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "145"
-            endingLineNumber = "145"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
             landmarkName = "tapThemaSearchBtn(_:)"
             landmarkType = "7">
          </BreakpointContent>

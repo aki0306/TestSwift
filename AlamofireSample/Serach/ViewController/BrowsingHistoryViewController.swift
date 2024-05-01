@@ -14,9 +14,6 @@ class BrowsingHistoryViewController: UIViewController {
     
     @IBOutlet weak var tableViewHeight: NSLayoutConstraint!
     @IBOutlet weak var collectionViewHeight: NSLayoutConstraint!
-    
-    // レイアウト設定
-    private let sectionInsets = UIEdgeInsets(top: 10.0, left: 2.0, bottom: 2.0, right: 2.0)
 
     // 1行あたりのアイテム数
     private let itemsPerRow: CGFloat = 2
@@ -86,7 +83,7 @@ class BrowsingHistoryViewController: UIViewController {
         self.tableView.registerCustomCell(BrowsingHistoryCell.self)
         self.collectionView.registerCustomCell(ThemaSearchCell.self)
         
-        self.themaData = ["あ", "い", "う", "え", "お"]
+        self.themaData = ["あ", "い", "う", "え", "お", "か"]
         
     }
 }
@@ -134,7 +131,7 @@ extension BrowsingHistoryViewController: UICollectionViewDelegateFlowLayout {
     
     // Screenサイズに応じたセルサイズを返す
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: collectionView.bounds.width / 2 - 10, height: 40.0)
+        return CGSize(width: collectionView.bounds.width / 2 - 5, height: 40.0)
     }
     
 }

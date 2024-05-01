@@ -19,6 +19,8 @@ class ThemaSearchCell: UICollectionViewCell {
     
     func setData(data: String) {
         var config = UIButton.Configuration.plain()
+        config.background.strokeColor = .systemRed
+        config.background.strokeWidth = 4.0
         config.title = data
         self.themaSearchBtn.configuration = config
         

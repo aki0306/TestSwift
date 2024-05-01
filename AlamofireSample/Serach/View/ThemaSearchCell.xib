@@ -10,14 +10,14 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Ic2-3V-BKa" customClass="ThemaSearchCell" customModule="AlamofireSample" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="373" height="120"/>
+            <rect key="frame" x="0.0" y="0.0" width="373" height="40"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="PZl-8x-R9x">
-                <rect key="frame" x="0.0" y="0.0" width="373" height="120"/>
+                <rect key="frame" x="0.0" y="0.0" width="373" height="40"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I8X-fB-Y0J">
-                        <rect key="frame" x="166" y="43" width="41.333333333333343" height="34.333333333333343"/>
+                        <rect key="frame" x="0.0" y="0.0" width="373" height="40"/>
                         <state key="normal" title="Button"/>
                         <buttonConfiguration key="configuration" style="plain" title="あ"/>
                         <connections>
@@ -26,8 +26,10 @@
                     </button>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="I8X-fB-Y0J" firstAttribute="centerX" secondItem="PZl-8x-R9x" secondAttribute="centerX" id="AlG-u6-Iyz"/>
-                    <constraint firstItem="I8X-fB-Y0J" firstAttribute="centerY" secondItem="PZl-8x-R9x" secondAttribute="centerY" id="ZEX-Yq-wdG"/>
+                    <constraint firstAttribute="trailing" secondItem="I8X-fB-Y0J" secondAttribute="trailing" id="1b9-cm-Hde"/>
+                    <constraint firstAttribute="bottom" secondItem="I8X-fB-Y0J" secondAttribute="bottom" id="Jpd-Te-U3I"/>
+                    <constraint firstItem="I8X-fB-Y0J" firstAttribute="top" secondItem="PZl-8x-R9x" secondAttribute="top" id="djC-Lr-F8i"/>
+                    <constraint firstItem="I8X-fB-Y0J" firstAttribute="leading" secondItem="PZl-8x-R9x" secondAttribute="leading" id="igz-po-AFH"/>
                 </constraints>
             </collectionViewCellContentView>
             <size key="customSize" width="373" height="120"/>

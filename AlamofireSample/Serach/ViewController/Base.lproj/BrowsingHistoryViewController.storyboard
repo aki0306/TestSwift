@@ -64,9 +64,9 @@
                                                 <rect key="frame" x="0.0" y="40" width="393" height="128"/>
                                                 <subviews>
                                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Jcd-g7-gEx">
-                                                        <rect key="frame" x="0.0" y="0.0" width="393" height="128"/>
+                                                        <rect key="frame" x="10" y="0.0" width="373" height="128"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="lRB-ax-SY3">
+                                                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="lRB-ax-SY3">
                                                             <size key="itemSize" width="128" height="128"/>
                                                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -79,9 +79,9 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" priority="1" constant="128" id="BC0-YF-47j"/>
                                                     <constraint firstItem="Jcd-g7-gEx" firstAttribute="top" secondItem="Ae7-q8-qSZ" secondAttribute="top" id="P8G-ef-Pmi"/>
-                                                    <constraint firstAttribute="trailing" secondItem="Jcd-g7-gEx" secondAttribute="trailing" id="Vxa-bB-W7r"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Jcd-g7-gEx" secondAttribute="trailing" constant="10" id="Vxa-bB-W7r"/>
                                                     <constraint firstAttribute="bottom" secondItem="Jcd-g7-gEx" secondAttribute="bottom" id="ZCp-hl-DYA"/>
-                                                    <constraint firstItem="Jcd-g7-gEx" firstAttribute="leading" secondItem="Ae7-q8-qSZ" secondAttribute="leading" id="g9R-Sf-T0c"/>
+                                                    <constraint firstItem="Jcd-g7-gEx" firstAttribute="leading" secondItem="Ae7-q8-qSZ" secondAttribute="leading" constant="10" id="g9R-Sf-T0c"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vE2-zi-wpi">
