@@ -64,6 +64,21 @@
                   endingLineNumber = "23"
                   offsetFromSymbolStart = "100">
                </Location>
+               <Location
+                  uuid = "41FD4817-98A2-43C3-824A-21B735DCB35D - e62a7d2cd44f9eb6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static __C.NSUserDefaults.test.setter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "AlamofireSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kawagishiyasuaki/Documents/iOS_TestSwift/AlamofireSample/Common/Extension/UserDefaultExtension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "112">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -247,16 +262,48 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "CF0ECF67-EF6F-485C-8C33-FEB477BCCB9B"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlamofireSample/Serach/ViewController/BrowsingHistoryViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "142"
-            endingLineNumber = "142"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
             landmarkName = "tapThemaSearchBtn(_:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CF0ECF67-EF6F-485C-8C33-FEB477BCCB9B - 18c0463d4b8cedef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlamofireSample.BrowsingHistoryViewController.tapThemaSearchBtn(Swift.Int) -&gt; ()"
+                  moduleName = "AlamofireSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kawagishiyasuaki/Documents/iOS_TestSwift/AlamofireSample/Serach/ViewController/BrowsingHistoryViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "200">
+               </Location>
+               <Location
+                  uuid = "CF0ECF67-EF6F-485C-8C33-FEB477BCCB9B - 18c0463d4b8cedef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlamofireSample.BrowsingHistoryViewController.tapThemaSearchBtn(Swift.Int) -&gt; ()"
+                  moduleName = "AlamofireSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kawagishiyasuaki/Documents/iOS_TestSwift/AlamofireSample/Serach/ViewController/BrowsingHistoryViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

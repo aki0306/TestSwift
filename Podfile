@@ -2,14 +2,11 @@
 # platform :ios, '9.0'
 
 target 'AlamofireSample' do
+  pod 'MBProgressHUD', '~> 1.2.0'
+end
 
-  target 'AlamofireSampleTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
+target 'AlamofireSampleTests' do
+end
 
-  target 'AlamofireSampleUITests' do
-    # Pods for testing
-  end
-
+target 'AlamofireSampleUITests' do
 end

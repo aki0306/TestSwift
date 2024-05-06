@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: e78cca85b98b7686c32080ae466ef720e5141cb4
+PODS:
+  - MBProgressHUD (1.2.0)
+
+DEPENDENCIES:
+  - MBProgressHUD (~> 1.2.0)
+
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+
+PODFILE CHECKSUM: b5f1cced1e2abede05d9038ae7fe2f34b63fc3a9
 
 COCOAPODS: 1.13.0

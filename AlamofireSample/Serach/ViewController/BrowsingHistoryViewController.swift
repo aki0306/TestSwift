@@ -102,6 +102,10 @@ extension BrowsingHistoryViewController: UITableViewDataSource {
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
 }
 
 extension BrowsingHistoryViewController: UICollectionViewDelegate {
@@ -115,6 +119,7 @@ extension BrowsingHistoryViewController: UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCustomCell(with: ThemaSearchCell.self, indexPath: indexPath)
+        cell.themaSearchBtn.tag = indexPath.row
         cell.themaSearchCellDelegate = self
         cell.setData(data: themaData[indexPath.item])
         return cell

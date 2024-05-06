@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FD8409D01DB2FC5CDB9880A4CB6C0BDF"
-               BuildableName = "libPods-AlamofireSample-AlamofireSampleUITests.a"
-               BlueprintName = "Pods-AlamofireSample-AlamofireSampleUITests"
+               BlueprintIdentifier = "82B0A41D3031FF27D78E17B0A9A46FB0"
+               BuildableName = "libMBProgressHUD.a"
+               BlueprintName = "MBProgressHUD"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
