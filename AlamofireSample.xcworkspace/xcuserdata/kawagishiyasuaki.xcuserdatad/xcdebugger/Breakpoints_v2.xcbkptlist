@@ -272,38 +272,6 @@
             endingLineNumber = "147"
             landmarkName = "tapThemaSearchBtn(_:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "CF0ECF67-EF6F-485C-8C33-FEB477BCCB9B - 18c0463d4b8cedef"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "AlamofireSample.BrowsingHistoryViewController.tapThemaSearchBtn(Swift.Int) -&gt; ()"
-                  moduleName = "AlamofireSample"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kawagishiyasuaki/Documents/iOS_TestSwift/AlamofireSample/Serach/ViewController/BrowsingHistoryViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "143"
-                  endingLineNumber = "143"
-                  offsetFromSymbolStart = "200">
-               </Location>
-               <Location
-                  uuid = "CF0ECF67-EF6F-485C-8C33-FEB477BCCB9B - 18c0463d4b8cedef"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "AlamofireSample.BrowsingHistoryViewController.tapThemaSearchBtn(Swift.Int) -&gt; ()"
-                  moduleName = "AlamofireSample"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kawagishiyasuaki/Documents/iOS_TestSwift/AlamofireSample/Serach/ViewController/BrowsingHistoryViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "143"
-                  endingLineNumber = "143"
-                  offsetFromSymbolStart = "96">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

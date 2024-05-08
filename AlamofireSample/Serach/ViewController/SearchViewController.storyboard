@@ -52,6 +52,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="tableView" destination="Cu7-O1-7KR" id="3Zj-7z-0gg"/>
                         <outlet property="textField" destination="xKG-2A-N87" id="yXu-Iu-AjX"/>
                     </connections>
                 </viewController>
