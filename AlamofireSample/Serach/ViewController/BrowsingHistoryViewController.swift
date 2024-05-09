@@ -100,6 +100,16 @@ class BrowsingHistoryViewController: UIViewController {
         """
 
         do {
+//            // JSON文字列をData型に変換
+//            let jsonData = jsonString.data(using: .utf8)!
+//            
+//            // JSONデータをAnyDecodable構造体にデコード
+//            let decodedData = try JSONDecoder().decode(AnyDecodable.self, from: jsonData)
+//            
+//            // デコードされたデータを利用する
+//            if let dictionary = decodedData.value as? [String: Any] {
+//                print(dictionary)
+//            }
             // JSON文字列をData型に変換
             let jsonData = jsonString.data(using: .utf8)!
             
@@ -107,8 +117,8 @@ class BrowsingHistoryViewController: UIViewController {
             let decodedData = try JSONDecoder().decode(AnyDecodable.self, from: jsonData)
             
             // デコードされたデータを利用する
-            if let dictionary = decodedData.value as? [String: Any] {
-                print(dictionary)
+            for keyValue in decodedData.values {
+                print("Key: \(keyValue.key), Value: \(keyValue.value)")
             }
         } catch {
             print("Error decoding JSON: \(error)")
