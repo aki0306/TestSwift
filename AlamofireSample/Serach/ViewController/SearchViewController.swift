@@ -30,13 +30,25 @@ class SearchViewController: UIViewController {
         self.refreshControl = UIRefreshControl()
         self.refreshControl.tintColor = .clear
         let image = UIImage(named: "arrow")
-        self.refreshImageView = UIImageView(image: image)
-        self.refreshImageView.contentMode = .scaleAspectFit
-        self.refreshImageView.frame = CGRect(x: 0, y: 0, width: 24, height: 24)
-        self.refreshImageView.center = CGPoint(x: self.refreshControl.bounds.midX,
-                                               y: self.refreshControl.bounds.midY)
+//        self.refreshImageView = UIImageView(image: image)
+//        self.refreshImageView.contentMode = .scaleAspectFit
+//        self.refreshImageView.frame = CGRect(x: 0, y: 0, width: 24, height: 24)
+//        self.refreshImageView.center = CGPoint(x: self.refreshControl.bounds.midX,
+//                                               y: self.refreshControl.bounds.midY)
         self.refreshControl.addTarget(self, action: #selector(refreshData), for: .valueChanged)
-        self.refreshControl.addSubview(self.refreshImageView)
+//        self.refreshControl.addSubview(self.refreshImageView)
+        
+        // リフレッシュコントロールのattributedTitleViewに画像と文字を設定
+        let attributedTitle = NSMutableAttributedString(string: "更新中...", attributes: [
+            .font: UIFont.systemFont(ofSize: 14),
+            .foregroundColor: UIColor.gray
+        ])
+        let imageAttachment = NSTextAttachment()
+        imageAttachment.image = image
+        let imageString = NSAttributedString(attachment: imageAttachment)
+        attributedTitle.insert(imageString, at: 0)
+        refreshControl.attributedTitle = attributedTitle
+        
         self.tableView.refreshControl = self.refreshControl
     }
     
@@ -46,7 +58,7 @@ class SearchViewController: UIViewController {
             self.refreshImageView.transform = CGAffineTransform(rotationAngle: .pi)
         }) { _ in
             self.refreshControl.endRefreshing()
-            self.refreshImageView.transform = .identity
+//            self.refreshImageView.transform = .identity
         }
     }
     

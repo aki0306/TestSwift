@@ -85,6 +85,35 @@ class BrowsingHistoryViewController: UIViewController {
         
         self.themaData = ["あ", "い", "う", "え", "お", "か"]
         
+        // JSON文字列
+        let jsonString = """
+        {
+            "key1": "value1",
+            "key2": 42,
+            "key3": {
+                "nestedKey1": "nestedValue1",
+                "nestedKey2": [1, 2, 3]
+            },
+            "key4": true,
+            "key5": 3.14
+        }
+        """
+
+        do {
+            // JSON文字列をData型に変換
+            let jsonData = jsonString.data(using: .utf8)!
+            
+            // JSONデータをAnyDecodable構造体にデコード
+            let decodedData = try JSONDecoder().decode(AnyDecodable.self, from: jsonData)
+            
+            // デコードされたデータを利用する
+            if let dictionary = decodedData.value as? [String: Any] {
+                print(dictionary)
+            }
+        } catch {
+            print("Error decoding JSON: \(error)")
+        }
+        
     }
 }
 
