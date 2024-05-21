@@ -62,6 +62,12 @@ class BrowsingHistoryViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.data = UserDefaults.test
+        if let vc = UIApplication.topViewController() {
+            if vc.isKind(of: SearchViewController.self) {
+                print("")
+            }
+        }
+        print("")
     }
     
     override func viewWillLayoutSubviews() {
