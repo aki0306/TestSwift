@@ -278,19 +278,19 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "C2545A26-9ABC-4D7B-8CDB-97E5C18A62F0"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlamofireSample/Serach/ViewController/SearchViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
             landmarkName = "refreshData()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "C2545A26-9ABC-4D7B-8CDB-97E5C18A62F0 - 6ff6dc8acd22e8c1"
+                  uuid = "C2545A26-9ABC-4D7B-8CDB-97E5C18A62F0 - 6ff6dc8acd22f707"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -300,12 +300,27 @@
                   urlString = "file:///Users/kawagishiyasuaki/Documents/iOS_TestSwift/AlamofireSample/Serach/ViewController/SearchViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "57"
-                  endingLineNumber = "57"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "360">
+               </Location>
+               <Location
+                  uuid = "C2545A26-9ABC-4D7B-8CDB-97E5C18A62F0 - 6ff6dc8acd22f707"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlamofireSample.SearchViewController.refreshData() -&gt; ()"
+                  moduleName = "AlamofireSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kawagishiyasuaki/Documents/iOS_TestSwift/AlamofireSample/Serach/ViewController/SearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
                   offsetFromSymbolStart = "44">
                </Location>
                <Location
-                  uuid = "C2545A26-9ABC-4D7B-8CDB-97E5C18A62F0 - c993683a7d01fcd"
+                  uuid = "C2545A26-9ABC-4D7B-8CDB-97E5C18A62F0 - c993683a7d0000b"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -315,8 +330,8 @@
                   urlString = "file:///Users/kawagishiyasuaki/Documents/iOS_TestSwift/AlamofireSample/Serach/ViewController/SearchViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "57"
-                  endingLineNumber = "57"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
                   offsetFromSymbolStart = "72">
                </Location>
             </Locations>
@@ -422,7 +437,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "C4D5B139-52DF-4E5D-9E5F-E36D0DA59DA1"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlamofireSample/Serach/ViewController/BrowsingHistoryViewController.swift"
@@ -432,6 +447,38 @@
             endingLineNumber = "67"
             landmarkName = "viewWillAppear(_:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C4D5B139-52DF-4E5D-9E5F-E36D0DA59DA1 - 43fe0155e63a610"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlamofireSample.BrowsingHistoryViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "AlamofireSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kawagishiyasuaki/Documents/iOS_TestSwift/AlamofireSample/Serach/ViewController/BrowsingHistoryViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "412">
+               </Location>
+               <Location
+                  uuid = "C4D5B139-52DF-4E5D-9E5F-E36D0DA59DA1 - 43fe0155e63a610"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlamofireSample.BrowsingHistoryViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "AlamofireSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kawagishiyasuaki/Documents/iOS_TestSwift/AlamofireSample/Serach/ViewController/BrowsingHistoryViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "464">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -480,6 +527,70 @@
                   offsetFromSymbolStart = "320">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "77AD229A-DC5A-40EA-B8CC-5CB999378AE9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlamofireSample/Serach/ViewController/SearchViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "initView()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "77AD229A-DC5A-40EA-B8CC-5CB999378AE9 - 6ff6dc8acd22e81f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlamofireSample.SearchViewController.refreshData() -&gt; ()"
+                  moduleName = "AlamofireSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kawagishiyasuaki/Documents/iOS_TestSwift/AlamofireSample/Serach/ViewController/SearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "77AD229A-DC5A-40EA-B8CC-5CB999378AE9 - 3457ee0d13f5b27a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlamofireSample.SearchViewController.initView() -&gt; ()"
+                  moduleName = "AlamofireSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kawagishiyasuaki/Documents/iOS_TestSwift/AlamofireSample/Serach/ViewController/SearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "2400">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4083709E-8C14-45B5-837B-FF7E8256AE8B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlamofireSample/Serach/ViewController/SearchViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "initView()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

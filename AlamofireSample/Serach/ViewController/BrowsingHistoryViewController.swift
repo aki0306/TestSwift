@@ -63,7 +63,7 @@ class BrowsingHistoryViewController: UIViewController {
         super.viewWillAppear(animated)
         self.data = UserDefaults.test
         if let vc = UIApplication.topViewController() {
-            if vc.isKind(of: SearchViewController.self) {
+            if vc is BrowsingHistoryViewController {
                 print("")
             }
         }

@@ -50,6 +50,12 @@ class SearchViewController: UIViewController {
         refreshControl.attributedTitle = attributedTitle
         
         self.tableView.refreshControl = self.refreshControl
+        
+        if let vc = UIApplication.topViewController() {
+            if vc is SearchViewController {
+                print("")
+            }
+        }
     }
     
     @objc func refreshData() {
