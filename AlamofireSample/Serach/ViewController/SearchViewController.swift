@@ -27,45 +27,22 @@ class SearchViewController: UIViewController {
         self.tableView.dataSource = self
         self.tableView.registerCustomCell(BrowsingHistoryCell.self)
         
-        self.refreshControl = UIRefreshControl()
-        self.refreshControl.tintColor = .clear
-        let image = UIImage(named: "arrow")
-//        self.refreshImageView = UIImageView(image: image)
-//        self.refreshImageView.contentMode = .scaleAspectFit
-//        self.refreshImageView.frame = CGRect(x: 0, y: 0, width: 24, height: 24)
-//        self.refreshImageView.center = CGPoint(x: self.refreshControl.bounds.midX,
-//                                               y: self.refreshControl.bounds.midY)
-        self.refreshControl.addTarget(self, action: #selector(refreshData), for: .valueChanged)
-//        self.refreshControl.addSubview(self.refreshImageView)
+        let backgroundView = UIView()
+        let imageView = UIImageView(image: UIImage(named: "AppIcon"))
+        let button = UIButton(type: .custom)
+        backgroundView.frame = CGRect(x: 0, y: 0, width: 24, height: 24)
+        imageView.frame = backgroundView.frame
+        button.frame = backgroundView.frame
+        button.addTarget(self, action: #selector(refreshData), for: .touchUpInside)
+        backgroundView.addSubview(imageView)
+        backgroundView.addSubview(button)
         
-        // リフレッシュコントロールのattributedTitleViewに画像と文字を設定
-        let attributedTitle = NSMutableAttributedString(string: "更新中...", attributes: [
-            .font: UIFont.systemFont(ofSize: 14),
-            .foregroundColor: UIColor.gray
-        ])
-        let imageAttachment = NSTextAttachment()
-        imageAttachment.image = image
-        let imageString = NSAttributedString(attachment: imageAttachment)
-        attributedTitle.insert(imageString, at: 0)
-        refreshControl.attributedTitle = attributedTitle
-        
-        self.tableView.refreshControl = self.refreshControl
-        
-        if let vc = UIApplication.topViewController() {
-            if vc is SearchViewController {
-                print("")
-            }
-        }
+        // テキストフィールドに右ビューを設定
+        self.textField.setRightView(backgroundView, padding: -12)  // -10で左に移動
     }
     
     @objc func refreshData() {
-        
-        UIView.animate(withDuration: 0.25, animations: {
-            self.refreshImageView.transform = CGAffineTransform(rotationAngle: .pi)
-        }) { _ in
-            self.refreshControl.endRefreshing()
-//            self.refreshImageView.transform = .identity
-        }
+        print("")
     }
     
 }

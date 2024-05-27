@@ -18,6 +18,7 @@
 		1F4531B72B646BF300BEBEB0 /* AlamofireSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4531B62B646BF300BEBEB0 /* AlamofireSampleUITests.swift */; };
 		1F4531B92B646BF300BEBEB0 /* AlamofireSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4531B82B646BF300BEBEB0 /* AlamofireSampleUITestsLaunchTests.swift */; };
 		1F4531C72B646D9C00BEBEB0 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4531C62B646D9C00BEBEB0 /* ModelData.swift */; };
+		1F8697CD2C04ACDA00CC2965 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8697CC2C04ACDA00CC2965 /* UITextFieldExtension.swift */; };
 		1FC543BE2BDE3344001126D2 /* BrowsingHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC543BD2BDE3344001126D2 /* BrowsingHistoryCell.swift */; };
 		1FC543C02BDE335A001126D2 /* BrowsingHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FC543BF2BDE335A001126D2 /* BrowsingHistoryCell.xib */; };
 		1FC543C22BDE3488001126D2 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC543C12BDE3488001126D2 /* UITableViewExtension.swift */; };
@@ -71,6 +72,7 @@
 		1F4531B62B646BF300BEBEB0 /* AlamofireSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireSampleUITests.swift; sourceTree = "<group>"; };
 		1F4531B82B646BF300BEBEB0 /* AlamofireSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1F4531C62B646D9C00BEBEB0 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		1F8697CC2C04ACDA00CC2965 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
 		1FC543BD2BDE3344001126D2 /* BrowsingHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowsingHistoryCell.swift; sourceTree = "<group>"; };
 		1FC543BF2BDE335A001126D2 /* BrowsingHistoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BrowsingHistoryCell.xib; sourceTree = "<group>"; };
 		1FC543C12BDE3488001126D2 /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
@@ -251,6 +253,7 @@
 				1FC543C12BDE3488001126D2 /* UITableViewExtension.swift */,
 				1FC543C52BDE3523001126D2 /* UICollectionViewExtension.swift */,
 				1FC5442D2BFCC171001126D2 /* UIApplecationExtension.swift */,
+				1F8697CC2C04ACDA00CC2965 /* UITextFieldExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -497,6 +500,7 @@
 				1F4531932B646BF100BEBEB0 /* AppDelegate.swift in Sources */,
 				1FDE89F02BDC218C006E6E1D /* UserDefaultExtension.swift in Sources */,
 				1F4531C72B646D9C00BEBEB0 /* ModelData.swift in Sources */,
+				1F8697CD2C04ACDA00CC2965 /* UITextFieldExtension.swift in Sources */,
 				1FC543C22BDE3488001126D2 /* UITableViewExtension.swift in Sources */,
 				1F45319D2B646BF100BEBEB0 /* AlamofireSample.xcdatamodeld in Sources */,
 				1F4531952B646BF100BEBEB0 /* SceneDelegate.swift in Sources */,
