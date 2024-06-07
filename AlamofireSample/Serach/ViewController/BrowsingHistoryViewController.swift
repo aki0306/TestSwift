@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import DropDown
 
 class BrowsingHistoryViewController: UIViewController {
     
@@ -14,6 +15,12 @@ class BrowsingHistoryViewController: UIViewController {
     
     @IBOutlet weak var tableViewHeight: NSLayoutConstraint!
     @IBOutlet weak var collectionViewHeight: NSLayoutConstraint!
+    
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var btn: UIButton!
+    
+    let selectElementDropDown = DropDown()
+    let elementArray: [String] = ["火", "水","1","2","火", "水","1","2","火", "水","1","2","火", "水","1","2","火", "水","1","2","火", "水","1","2"]
 
     // 1行あたりのアイテム数
     private let itemsPerRow: CGFloat = 2
@@ -41,33 +48,12 @@ class BrowsingHistoryViewController: UIViewController {
         
         self.initView()
         
-//        let url = "URLをいれてね"
-//        let headers: HTTPHeaders = [
-//            "Contenttype": "application/json"
-//        ]
-//        let parameters:[String: Any] = [
-//            "username": "",
-//            "password": ""
-//        ]
-//
-//        AF.request(url, method: .post, parameters: parameters, encoding: JSONEncoding.default, headers: headers).response { respons in
-//            switch respons.result {
-//            case .success(let success): break
-//            case .failure(let failure): break
-//            }
-//        }
         // Do any additional setup after loading the view.
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.data = UserDefaults.test
-        if let vc = UIApplication.topViewController() {
-            if vc is BrowsingHistoryViewController {
-                print("")
-            }
-        }
-        print("")
     }
     
     override func viewWillLayoutSubviews() {
@@ -130,6 +116,23 @@ class BrowsingHistoryViewController: UIViewController {
             print("Error decoding JSON: \(error)")
         }
         
+        self.initSelectElementDropDownMenu()
+        
+    }
+    
+    func initSelectElementDropDownMenu(){
+        selectElementDropDown.anchorView = self.label
+        selectElementDropDown.dataSource = elementArray // [String]
+        selectElementDropDown.bottomOffset = CGPoint(x: 0, y: self.label.bounds.height + 10)
+        selectElementDropDown.selectionAction = { [unowned self] (index: Int, item: String) in
+            // 選択されたときのActionを記載する
+            print("")
+            self.label.text = item
+        }
+    }
+    
+    @IBAction func elementDropDownTapped(_ sender: UIButton) {
+        selectElementDropDown.show()
     }
 }
 

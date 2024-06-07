@@ -3,6 +3,7 @@
 
 target 'AlamofireSample' do
   pod 'MBProgressHUD', '~> 1.2.0'
+  pod 'DropDown'
 end
 
 target 'AlamofireSampleTests' do
