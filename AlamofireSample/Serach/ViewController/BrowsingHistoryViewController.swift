@@ -121,8 +121,15 @@ class BrowsingHistoryViewController: UIViewController {
     }
     
     func initSelectElementDropDownMenu(){
+        let appearance = DropDown.appearance()
+        appearance.cornerRadius = 16.0
+        appearance.backgroundColor = .white
+        appearance.shadowOpacity = 2.0
+        appearance.shadowColor = .blue
         selectElementDropDown.anchorView = self.label
-        selectElementDropDown.dataSource = elementArray // [String]
+        selectElementDropDown.width = self.btn.frame.width
+        selectElementDropDown.dataSource = elementArray
+        selectElementDropDown.offsetFromWindowBottom = 100
         selectElementDropDown.bottomOffset = CGPoint(x: 0, y: self.label.bounds.height + 10)
         selectElementDropDown.selectionAction = { [unowned self] (index: Int, item: String) in
             // 選択されたときのActionを記載する

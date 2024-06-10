@@ -19,6 +19,7 @@
 		1F4531B92B646BF300BEBEB0 /* AlamofireSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4531B82B646BF300BEBEB0 /* AlamofireSampleUITestsLaunchTests.swift */; };
 		1F4531C72B646D9C00BEBEB0 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4531C62B646D9C00BEBEB0 /* ModelData.swift */; };
 		1F8697CD2C04ACDA00CC2965 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8697CC2C04ACDA00CC2965 /* UITextFieldExtension.swift */; };
+		1F8697D02C13A6DF00CC2965 /* TestUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8697CF2C13A6DF00CC2965 /* TestUIView.swift */; };
 		1FC543BE2BDE3344001126D2 /* BrowsingHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC543BD2BDE3344001126D2 /* BrowsingHistoryCell.swift */; };
 		1FC543C02BDE335A001126D2 /* BrowsingHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FC543BF2BDE335A001126D2 /* BrowsingHistoryCell.xib */; };
 		1FC543C22BDE3488001126D2 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC543C12BDE3488001126D2 /* UITableViewExtension.swift */; };
@@ -73,6 +74,7 @@
 		1F4531B82B646BF300BEBEB0 /* AlamofireSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1F4531C62B646D9C00BEBEB0 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		1F8697CC2C04ACDA00CC2965 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
+		1F8697CF2C13A6DF00CC2965 /* TestUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUIView.swift; sourceTree = "<group>"; };
 		1FC543BD2BDE3344001126D2 /* BrowsingHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowsingHistoryCell.swift; sourceTree = "<group>"; };
 		1FC543BF2BDE335A001126D2 /* BrowsingHistoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BrowsingHistoryCell.xib; sourceTree = "<group>"; };
 		1FC543C12BDE3488001126D2 /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
@@ -196,9 +198,18 @@
 			path = API;
 			sourceTree = "<group>";
 		};
+		1F8697CE2C13A6BE00CC2965 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				1F8697CF2C13A6DF00CC2965 /* TestUIView.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
 		1FC543BB2BDE31C0001126D2 /* Serach */ = {
 			isa = PBXGroup;
 			children = (
+				1F8697CE2C13A6BE00CC2965 /* SwiftUI */,
 				1FC543CC2BE0D928001126D2 /* Common */,
 				1FC543BC2BDE32C6001126D2 /* View */,
 				1FC543C72BDF20A1001126D2 /* ViewController */,
@@ -512,6 +523,7 @@
 				1FC543CE2BE0D947001126D2 /* SearchUtil.swift in Sources */,
 				1FC543CB2BDF8332001126D2 /* ThemaSearchCell.swift in Sources */,
 				1FC543C62BDE3523001126D2 /* UICollectionViewExtension.swift in Sources */,
+				1F8697D02C13A6DF00CC2965 /* TestUIView.swift in Sources */,
 				1FC543BE2BDE3344001126D2 /* BrowsingHistoryCell.swift in Sources */,
 				1FDE89F42BDC8B46006E6E1D /* SearchViewController.swift in Sources */,
 				1FC5442E2BFCC171001126D2 /* UIApplecationExtension.swift in Sources */,

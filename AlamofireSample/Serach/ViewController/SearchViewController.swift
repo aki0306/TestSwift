@@ -29,7 +29,6 @@ class SearchViewController: UIViewController {
         let backgroundView = UIView()
         let imageView = UIImageView(image: UIImage(named: "AppIcon"))
         let button = UIButton(type: .custom)
-        button.configuration
         backgroundView.frame = CGRect(x: 0, y: 0, width: 24, height: 24)
         imageView.frame = backgroundView.frame
         button.frame = backgroundView.frame
