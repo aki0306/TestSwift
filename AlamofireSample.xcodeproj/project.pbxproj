@@ -17,9 +17,10 @@
 		1F4531AD2B646BF200BEBEB0 /* AlamofireSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4531AC2B646BF200BEBEB0 /* AlamofireSampleTests.swift */; };
 		1F4531B72B646BF300BEBEB0 /* AlamofireSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4531B62B646BF300BEBEB0 /* AlamofireSampleUITests.swift */; };
 		1F4531B92B646BF300BEBEB0 /* AlamofireSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4531B82B646BF300BEBEB0 /* AlamofireSampleUITestsLaunchTests.swift */; };
-		1F4531C72B646D9C00BEBEB0 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4531C62B646D9C00BEBEB0 /* ModelData.swift */; };
+		1F4531C72B646D9C00BEBEB0 /* MyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4531C62B646D9C00BEBEB0 /* MyModel.swift */; };
 		1F8697CD2C04ACDA00CC2965 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8697CC2C04ACDA00CC2965 /* UITextFieldExtension.swift */; };
 		1F8697D02C13A6DF00CC2965 /* TestUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8697CF2C13A6DF00CC2965 /* TestUIView.swift */; };
+		1FA520272C86605400E39993 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA520262C86605400E39993 /* NetworkManager.swift */; };
 		1FC543BE2BDE3344001126D2 /* BrowsingHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC543BD2BDE3344001126D2 /* BrowsingHistoryCell.swift */; };
 		1FC543C02BDE335A001126D2 /* BrowsingHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FC543BF2BDE335A001126D2 /* BrowsingHistoryCell.xib */; };
 		1FC543C22BDE3488001126D2 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC543C12BDE3488001126D2 /* UITableViewExtension.swift */; };
@@ -72,9 +73,10 @@
 		1F4531B22B646BF300BEBEB0 /* AlamofireSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlamofireSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F4531B62B646BF300BEBEB0 /* AlamofireSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireSampleUITests.swift; sourceTree = "<group>"; };
 		1F4531B82B646BF300BEBEB0 /* AlamofireSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		1F4531C62B646D9C00BEBEB0 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		1F4531C62B646D9C00BEBEB0 /* MyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModel.swift; sourceTree = "<group>"; };
 		1F8697CC2C04ACDA00CC2965 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
 		1F8697CF2C13A6DF00CC2965 /* TestUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUIView.swift; sourceTree = "<group>"; };
+		1FA520262C86605400E39993 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		1FC543BD2BDE3344001126D2 /* BrowsingHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowsingHistoryCell.swift; sourceTree = "<group>"; };
 		1FC543BF2BDE335A001126D2 /* BrowsingHistoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BrowsingHistoryCell.xib; sourceTree = "<group>"; };
 		1FC543C12BDE3488001126D2 /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 		1F4531912B646BF100BEBEB0 /* AlamofireSample */ = {
 			isa = PBXGroup;
 			children = (
+				1FA520252C865FC100E39993 /* API */,
 				1FDE89EC2BDC212F006E6E1D /* Common */,
 				1F4531C52B646CFC00BEBEB0 /* Model */,
 				1FC543BB2BDE31C0001126D2 /* Serach */,
@@ -186,16 +189,9 @@
 		1F4531C52B646CFC00BEBEB0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				1F4531C62B646D9C00BEBEB0 /* ModelData.swift */,
+				1F4531C62B646D9C00BEBEB0 /* MyModel.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		1F4531C82B64868900BEBEB0 /* API */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = API;
 			sourceTree = "<group>";
 		};
 		1F8697CE2C13A6BE00CC2965 /* SwiftUI */ = {
@@ -204,6 +200,14 @@
 				1F8697CF2C13A6DF00CC2965 /* TestUIView.swift */,
 			);
 			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		1FA520252C865FC100E39993 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				1FA520262C86605400E39993 /* NetworkManager.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 		1FC543BB2BDE31C0001126D2 /* Serach */ = {
@@ -251,7 +255,6 @@
 			isa = PBXGroup;
 			children = (
 				1FDE89ED2BDC214B006E6E1D /* Extension */,
-				1F4531C82B64868900BEBEB0 /* API */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -529,7 +532,8 @@
 				1FC5442E2BFCC171001126D2 /* UIApplecationExtension.swift in Sources */,
 				1F4531932B646BF100BEBEB0 /* AppDelegate.swift in Sources */,
 				1FDE89F02BDC218C006E6E1D /* UserDefaultExtension.swift in Sources */,
-				1F4531C72B646D9C00BEBEB0 /* ModelData.swift in Sources */,
+				1FA520272C86605400E39993 /* NetworkManager.swift in Sources */,
+				1F4531C72B646D9C00BEBEB0 /* MyModel.swift in Sources */,
 				1F8697CD2C04ACDA00CC2965 /* UITextFieldExtension.swift in Sources */,
 				1FC543C22BDE3488001126D2 /* UITableViewExtension.swift in Sources */,
 				1F45319D2B646BF100BEBEB0 /* AlamofireSample.xcdatamodeld in Sources */,
