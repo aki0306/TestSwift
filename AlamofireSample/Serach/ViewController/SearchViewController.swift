@@ -39,6 +39,8 @@ class SearchViewController: UIViewController {
         
         // テキストフィールドに右ビューを設定
         self.textField.setRightView(backgroundView, padding: -12)  // -10で左に移動
+        // ワンタイムパスワード設定
+        self.textField.textContentType = .oneTimeCode
     }
     
     @objc func refreshData() {
