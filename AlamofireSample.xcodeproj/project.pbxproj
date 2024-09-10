@@ -77,6 +77,7 @@
 		1F8697CC2C04ACDA00CC2965 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
 		1F8697CF2C13A6DF00CC2965 /* TestUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUIView.swift; sourceTree = "<group>"; };
 		1FA520262C86605400E39993 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1FA520282C90700B00E39993 /* AlamofireSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlamofireSample-Bridging-Header.h"; sourceTree = "<group>"; };
 		1FC543BD2BDE3344001126D2 /* BrowsingHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowsingHistoryCell.swift; sourceTree = "<group>"; };
 		1FC543BF2BDE335A001126D2 /* BrowsingHistoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BrowsingHistoryCell.xib; sourceTree = "<group>"; };
 		1FC543C12BDE3488001126D2 /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
@@ -239,6 +240,7 @@
 				1F4531962B646BF100BEBEB0 /* BrowsingHistoryViewController.swift */,
 				1FDE89F12BDC8B32006E6E1D /* SearchViewController.storyboard */,
 				1FDE89F32BDC8B46006E6E1D /* SearchViewController.swift */,
+				1FA520282C90700B00E39993 /* AlamofireSample-Bridging-Header.h */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -369,6 +371,7 @@
 				TargetAttributes = {
 					1F45318E2B646BF100BEBEB0 = {
 						CreatedOnToolsVersion = 15.1;
+						LastSwiftMigration = 1600;
 					};
 					1F4531A72B646BF200BEBEB0 = {
 						CreatedOnToolsVersion = 15.1;
@@ -719,6 +722,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TCBGC86T9Y;
@@ -738,6 +742,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = test.com.jp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AlamofireSample/Serach/ViewController/AlamofireSample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -749,6 +755,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TCBGC86T9Y;
@@ -768,6 +775,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = test.com.jp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AlamofireSample/Serach/ViewController/AlamofireSample-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

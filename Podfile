@@ -5,6 +5,7 @@ target 'AlamofireSample' do
   pod 'MBProgressHUD', '~> 1.2.0'
   pod 'DropDown'
   pod 'Alamofire', '5.9.1'
+  pod 'AFNetworking'
 end
 
 target 'AlamofireSampleTests' do

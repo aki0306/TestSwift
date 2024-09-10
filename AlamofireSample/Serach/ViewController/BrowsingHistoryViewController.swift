@@ -30,6 +30,16 @@ class BrowsingHistoryViewController: UIViewController {
     let years = Array(1900...2100)
     let months = Array(1...12)
     var days = Array(1...31)
+    
+    // OTPを入力するためのUITextField
+    let otpTextField: UITextField = {
+        let textField = UITextField()
+        textField.placeholder = "Enter OTP"
+        textField.borderStyle = .roundedRect
+        textField.keyboardType = .numberPad
+        textField.textContentType = .oneTimeCode  // 自動入力のための設定
+        return textField
+    }()
 
     // 1行あたりのアイテム数
     private let itemsPerRow: CGFloat = 2
@@ -70,6 +80,32 @@ class BrowsingHistoryViewController: UIViewController {
         
         // 現在の日付を取得して初期選択を設定
         setInitialSelection()
+        
+        view.addSubview(otpTextField)
+        otpTextField.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            otpTextField.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            otpTextField.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+            otpTextField.widthAnchor.constraint(equalToConstant: 200),
+            otpTextField.heightAnchor.constraint(equalToConstant: 40)
+        ])
+        
+        let requestModel = MyRequestModel(key1: "value1", key2: "value2")
+        let customUserAgent = "MyCustomUserAgent/1.0"
+
+        NetworkManager.shared.performShiftJISRequest(
+            url: "https://example.com/api/resource",
+            method: .post,
+            requestBody: requestModel,
+            customUserAgent: customUserAgent
+        ) { (result: Result<MyResponseModel, Error>) in
+            switch result {
+            case .success(let responseModel):
+                print("成功: \(responseModel.result), メッセージ: \(responseModel.message)")
+            case .failure(let error):
+                print("エラー: \(error)")
+            }
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {
