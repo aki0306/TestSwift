@@ -99,10 +99,12 @@ EOM
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.bundle"
   install_resource "${PODS_ROOT}/DropDown/DropDown/resources/DropDownCell.xib"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/SwiftSoup/SwiftSoup.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.bundle"
   install_resource "${PODS_ROOT}/DropDown/DropDown/resources/DropDownCell.xib"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/SwiftSoup/SwiftSoup.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

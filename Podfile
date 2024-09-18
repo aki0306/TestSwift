@@ -6,6 +6,7 @@ target 'AlamofireSample' do
   pod 'DropDown'
   pod 'Alamofire', '5.9.1'
   pod 'AFNetworking'
+  pod 'SwiftSoup', '2.7.3'
 end
 
 target 'AlamofireSampleTests' do

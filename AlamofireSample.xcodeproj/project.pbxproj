@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F0E28C42C9835AD00BC3B48 /* SettingViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F0E28C32C9835AD00BC3B48 /* SettingViewController.storyboard */; };
+		1F0E28C62C9835C100BC3B48 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0E28C52C9835C100BC3B48 /* SettingViewController.swift */; };
 		1F4531932B646BF100BEBEB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4531922B646BF100BEBEB0 /* AppDelegate.swift */; };
 		1F4531952B646BF100BEBEB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4531942B646BF100BEBEB0 /* SceneDelegate.swift */; };
 		1F4531972B646BF100BEBEB0 /* BrowsingHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4531962B646BF100BEBEB0 /* BrowsingHistoryViewController.swift */; };
@@ -59,6 +61,8 @@
 /* Begin PBXFileReference section */
 		0AA8A12B9FFD40726044CB66 /* Pods-AlamofireSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireSample.release.xcconfig"; path = "Target Support Files/Pods-AlamofireSample/Pods-AlamofireSample.release.xcconfig"; sourceTree = "<group>"; };
 		1A9DEFB41576708231A723A2 /* Pods-AlamofireSample-AlamofireSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireSample-AlamofireSampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-AlamofireSample-AlamofireSampleUITests/Pods-AlamofireSample-AlamofireSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F0E28C32C9835AD00BC3B48 /* SettingViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SettingViewController.storyboard; sourceTree = "<group>"; };
+		1F0E28C52C9835C100BC3B48 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		1F45318F2B646BF100BEBEB0 /* AlamofireSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamofireSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F4531922B646BF100BEBEB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F4531942B646BF100BEBEB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -130,6 +134,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F0E28BC2C98353F00BC3B48 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				1F0E28BD2C98355400BC3B48 /* View */,
+				1F0E28BE2C98356100BC3B48 /* ViewController */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		1F0E28BD2C98355400BC3B48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1F0E28BE2C98356100BC3B48 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1F0E28C32C9835AD00BC3B48 /* SettingViewController.storyboard */,
+				1F0E28C52C9835C100BC3B48 /* SettingViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		1F4531862B646BF100BEBEB0 = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +188,7 @@
 				1FA520252C865FC100E39993 /* API */,
 				1FDE89EC2BDC212F006E6E1D /* Common */,
 				1F4531C52B646CFC00BEBEB0 /* Model */,
+				1F0E28BC2C98353F00BC3B48 /* Setting */,
 				1FC543BB2BDE31C0001126D2 /* Serach */,
 				1F4531922B646BF100BEBEB0 /* AppDelegate.swift */,
 				1F4531942B646BF100BEBEB0 /* SceneDelegate.swift */,
@@ -408,6 +438,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F0E28C42C9835AD00BC3B48 /* SettingViewController.storyboard in Resources */,
 				1F4531A22B646BF200BEBEB0 /* LaunchScreen.storyboard in Resources */,
 				1FC543D02BE221DD001126D2 /* PrivacyInfo.xcprivacy in Resources */,
 				1FC543C92BDF8323001126D2 /* ThemaSearchCell.xib in Resources */,
@@ -530,6 +561,7 @@
 				1FC543CB2BDF8332001126D2 /* ThemaSearchCell.swift in Sources */,
 				1FC543C62BDE3523001126D2 /* UICollectionViewExtension.swift in Sources */,
 				1F8697D02C13A6DF00CC2965 /* TestUIView.swift in Sources */,
+				1F0E28C62C9835C100BC3B48 /* SettingViewController.swift in Sources */,
 				1FC543BE2BDE3344001126D2 /* BrowsingHistoryCell.swift in Sources */,
 				1FDE89F42BDC8B46006E6E1D /* SearchViewController.swift in Sources */,
 				1FC5442E2BFCC171001126D2 /* UIApplecationExtension.swift in Sources */,
@@ -731,7 +763,7 @@
 				INFOPLIST_FILE = AlamofireSample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = BrowsingHistoryViewController;
+				INFOPLIST_KEY_UIMainStoryboardFile = SettingViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -744,7 +776,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "AlamofireSample/Serach/ViewController/AlamofireSample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -764,7 +796,7 @@
 				INFOPLIST_FILE = AlamofireSample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = BrowsingHistoryViewController;
+				INFOPLIST_KEY_UIMainStoryboardFile = SettingViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -776,7 +808,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "AlamofireSample/Serach/ViewController/AlamofireSample-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

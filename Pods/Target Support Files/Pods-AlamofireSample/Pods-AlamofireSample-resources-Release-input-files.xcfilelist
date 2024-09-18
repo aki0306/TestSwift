@@ -1,3 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-AlamofireSample/Pods-AlamofireSample-resources.sh
 ${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.bundle
 ${PODS_ROOT}/DropDown/DropDown/resources/DropDownCell.xib
+${PODS_CONFIGURATION_BUILD_DIR}/SwiftSoup/SwiftSoup.bundle

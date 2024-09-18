@@ -9,7 +9,7 @@ import Foundation
 
 class SearchUtil {
     
-    static let shared = SearchUtil()
+    @MainActor static let shared = SearchUtil()
     
     
 }
