@@ -9,7 +9,11 @@ import Foundation
 
 class SearchUtil {
     
-    @MainActor static let shared = SearchUtil()
+    nonisolated(unsafe) static let shared = SearchUtil()
+    
+    func test() {
+        
+    }
     
     
 }

@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="yUt-h0-G49">
-                                <rect key="frame" x="16" y="396" width="361" height="60"/>
+                                <rect key="frame" x="16" y="79" width="361" height="60"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="snk-eZ-d9A">
                                         <rect key="frame" x="0.0" y="0.0" width="52" height="60"/>
@@ -72,12 +72,46 @@
                                     <constraint firstAttribute="height" constant="60" id="Z3I-WI-CV3"/>
                                 </constraints>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ggb-CX-sZ7">
+                                <rect key="frame" x="16" y="159" width="361" height="60"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uWa-1k-Owf">
+                                        <rect key="frame" x="0.0" y="0.0" width="113.66666666666667" height="60"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="Y6W-OH-hqX" id="Dy8-ya-aD3"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mKV-ru-7nm">
+                                        <rect key="frame" x="123.66666666666666" y="0.0" width="113.66666666666666" height="60"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="Y6W-OH-hqX" id="lBu-2d-4HV"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wPJ-wE-bi7">
+                                        <rect key="frame" x="247.33333333333329" y="0.0" width="113.66666666666666" height="60"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="Y6W-OH-hqX" id="4FT-NT-rJX"/>
+                                        </connections>
+                                    </textField>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="fAi-MJ-qpw"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="yUt-h0-G49" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="8ht-ti-tMs"/>
-                            <constraint firstItem="yUt-h0-G49" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="MHj-Ar-IIR"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="ggb-CX-sZ7" secondAttribute="trailing" constant="16" id="Dhb-Ij-c6s"/>
+                            <constraint firstItem="yUt-h0-G49" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="Tfs-mc-cS1"/>
+                            <constraint firstItem="ggb-CX-sZ7" firstAttribute="top" secondItem="yUt-h0-G49" secondAttribute="bottom" constant="20" id="ZA3-WA-OsW"/>
+                            <constraint firstItem="ggb-CX-sZ7" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="cIW-oj-IL9"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="yUt-h0-G49" secondAttribute="trailing" constant="16" id="cSK-bw-U4d"/>
                             <constraint firstItem="yUt-h0-G49" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="iQD-WT-F8z"/>
                         </constraints>
@@ -89,6 +123,9 @@
                         <outletCollection property="otpTextFieldArray" destination="IRr-VN-lhp" collectionClass="NSMutableArray" id="LBw-Nd-62J"/>
                         <outletCollection property="otpTextFieldArray" destination="34O-8K-wYy" collectionClass="NSMutableArray" id="MJQ-a1-duS"/>
                         <outletCollection property="otpTextFieldArray" destination="fMy-zg-odX" collectionClass="NSMutableArray" id="TeH-B1-5CY"/>
+                        <outletCollection property="birthDateTextFieldArray" destination="uWa-1k-Owf" collectionClass="NSMutableArray" id="II8-4J-5tJ"/>
+                        <outletCollection property="birthDateTextFieldArray" destination="mKV-ru-7nm" collectionClass="NSMutableArray" id="5cc-9D-0Xw"/>
+                        <outletCollection property="birthDateTextFieldArray" destination="wPJ-wE-bi7" collectionClass="NSMutableArray" id="g9b-ak-X8v"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
