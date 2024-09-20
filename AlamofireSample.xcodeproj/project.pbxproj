@@ -185,13 +185,10 @@
 		1F4531912B646BF100BEBEB0 /* AlamofireSample */ = {
 			isa = PBXGroup;
 			children = (
-				1FA520252C865FC100E39993 /* API */,
-				1FDE89EC2BDC212F006E6E1D /* Common */,
-				1F4531C52B646CFC00BEBEB0 /* Model */,
-				1F0E28BC2C98353F00BC3B48 /* Setting */,
-				1FC543BB2BDE31C0001126D2 /* Serach */,
+				1F6FEC102C9DF63700EAE347 /* Swift */,
 				1F4531922B646BF100BEBEB0 /* AppDelegate.swift */,
 				1F4531942B646BF100BEBEB0 /* SceneDelegate.swift */,
+				1FA520282C90700B00E39993 /* AlamofireSample-Bridging-Header.h */,
 				1F45319E2B646BF200BEBEB0 /* Assets.xcassets */,
 				1F4531A02B646BF200BEBEB0 /* LaunchScreen.storyboard */,
 				1F4531A32B646BF200BEBEB0 /* Info.plist */,
@@ -223,6 +220,18 @@
 				1F4531C62B646D9C00BEBEB0 /* MyModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		1F6FEC102C9DF63700EAE347 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				1FA520252C865FC100E39993 /* API */,
+				1FDE89EC2BDC212F006E6E1D /* Common */,
+				1F4531C52B646CFC00BEBEB0 /* Model */,
+				1F0E28BC2C98353F00BC3B48 /* Setting */,
+				1FC543BB2BDE31C0001126D2 /* Serach */,
+			);
+			path = Swift;
 			sourceTree = "<group>";
 		};
 		1F8697CE2C13A6BE00CC2965 /* SwiftUI */ = {
@@ -270,7 +279,6 @@
 				1F4531962B646BF100BEBEB0 /* BrowsingHistoryViewController.swift */,
 				1FDE89F12BDC8B32006E6E1D /* SearchViewController.storyboard */,
 				1FDE89F32BDC8B46006E6E1D /* SearchViewController.swift */,
-				1FA520282C90700B00E39993 /* AlamofireSample-Bridging-Header.h */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -774,7 +782,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = test.com.jp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "AlamofireSample/Serach/ViewController/AlamofireSample-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "AlamofireSample/AlamofireSample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -807,7 +815,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = test.com.jp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "AlamofireSample/Serach/ViewController/AlamofireSample-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "AlamofireSample/AlamofireSample-Bridging-Header.h";
 				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
