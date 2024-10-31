@@ -17,6 +17,7 @@ PODS:
   - Alamofire (5.9.1)
   - DropDown (2.3.13)
   - MBProgressHUD (1.2.0)
+  - SwiftLint (0.57.0)
   - SwiftSoup (2.7.3)
 
 DEPENDENCIES:
@@ -24,6 +25,7 @@ DEPENDENCIES:
   - Alamofire (= 5.9.1)
   - DropDown
   - MBProgressHUD (~> 1.2.0)
+  - SwiftLint
   - SwiftSoup (= 2.7.3)
 
 SPEC REPOS:
@@ -32,6 +34,7 @@ SPEC REPOS:
     - Alamofire
     - DropDown
     - MBProgressHUD
+    - SwiftLint
     - SwiftSoup
 
 SPEC CHECKSUMS:
@@ -39,8 +42,9 @@ SPEC CHECKSUMS:
   Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
   DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  SwiftLint: eb47480d47c982481592c195c221d11013a679cc
   SwiftSoup: e3849c3293b1efee9cf892f91f6ae5c22bfeb5f7
 
-PODFILE CHECKSUM: 24c0722291d29a2eebc9b63e103de55a89d8f6f6
+PODFILE CHECKSUM: 13ba2e237b5fb0ced514aa1ccb8e2088befc1130
 
 COCOAPODS: 1.13.0

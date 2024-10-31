@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -22,7 +23,7 @@
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="snk-eZ-d9A">
                                         <rect key="frame" x="0.0" y="0.0" width="52" height="60"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="one-time-code"/>
                                         <connections>
                                             <outlet property="delegate" destination="Y6W-OH-hqX" id="rJR-Bf-NjW"/>
                                         </connections>
@@ -30,7 +31,7 @@
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dxk-ly-G7n">
                                         <rect key="frame" x="62" y="0.0" width="51.666666666666657" height="60"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="one-time-code"/>
                                         <connections>
                                             <outlet property="delegate" destination="Y6W-OH-hqX" id="KlZ-1k-My6"/>
                                         </connections>
@@ -38,7 +39,7 @@
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o2J-Kz-0z9">
                                         <rect key="frame" x="123.66666666666666" y="0.0" width="52" height="60"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="one-time-code"/>
                                         <connections>
                                             <outlet property="delegate" destination="Y6W-OH-hqX" id="Owe-AJ-oWO"/>
                                         </connections>
@@ -46,7 +47,7 @@
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IRr-VN-lhp">
                                         <rect key="frame" x="185.66666666666666" y="0.0" width="51.666666666666657" height="60"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="one-time-code"/>
                                         <connections>
                                             <outlet property="delegate" destination="Y6W-OH-hqX" id="Dgq-Q5-6Xs"/>
                                         </connections>
@@ -54,7 +55,7 @@
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="34O-8K-wYy">
                                         <rect key="frame" x="247.33333333333331" y="0.0" width="52" height="60"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="one-time-code"/>
                                         <connections>
                                             <outlet property="delegate" destination="Y6W-OH-hqX" id="pzp-jP-T0y"/>
                                         </connections>
@@ -62,7 +63,7 @@
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fMy-zg-odX">
                                         <rect key="frame" x="309.33333333333331" y="0.0" width="51.666666666666686" height="60"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="one-time-code"/>
                                         <connections>
                                             <outlet property="delegate" destination="Y6W-OH-hqX" id="d23-ut-PW2"/>
                                         </connections>
@@ -104,15 +105,27 @@
                                     <constraint firstAttribute="height" constant="60" id="fAi-MJ-qpw"/>
                                 </constraints>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaygggggggg" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AjM-RX-r9F" customClass="HiraginoUILabel" customModule="AlamofireSample" customModuleProvider="target">
+                                <rect key="frame" x="146.66666666666666" y="366.66666666666669" width="100" height="119"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="aVX-Lg-liA"/>
+                                    <constraint firstAttribute="height" priority="1" constant="21" id="yZ4-xh-gDD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="ggb-CX-sZ7" secondAttribute="trailing" constant="16" id="Dhb-Ij-c6s"/>
+                            <constraint firstItem="AjM-RX-r9F" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="Sj3-16-zpn"/>
                             <constraint firstItem="yUt-h0-G49" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="Tfs-mc-cS1"/>
                             <constraint firstItem="ggb-CX-sZ7" firstAttribute="top" secondItem="yUt-h0-G49" secondAttribute="bottom" constant="20" id="ZA3-WA-OsW"/>
                             <constraint firstItem="ggb-CX-sZ7" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="cIW-oj-IL9"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="yUt-h0-G49" secondAttribute="trailing" constant="16" id="cSK-bw-U4d"/>
+                            <constraint firstItem="AjM-RX-r9F" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="hTM-Sd-dFE"/>
                             <constraint firstItem="yUt-h0-G49" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="iQD-WT-F8z"/>
                         </constraints>
                     </view>

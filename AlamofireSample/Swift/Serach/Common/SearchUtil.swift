@@ -9,7 +9,7 @@ import Foundation
 
 class SearchUtil {
     
-    nonisolated(unsafe) static let shared = SearchUtil()
+    static let shared = SearchUtil()
     
     func test() {
         

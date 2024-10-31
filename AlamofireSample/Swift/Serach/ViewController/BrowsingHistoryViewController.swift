@@ -47,23 +47,6 @@ class BrowsingHistoryViewController: UIViewController {
         super.viewDidLoad()
         
         self.initView()
-        
-        let requestModel = MyRequestModel(key1: "value1", key2: "value2")
-        let customUserAgent = "MyCustomUserAgent/1.0"
-
-        NetworkManager.shared.performShiftJISRequest(
-            url: "https://example.com/api/resource",
-            method: .post,
-            requestBody: requestModel,
-            customUserAgent: customUserAgent
-        ) { (result: Result<MyResponseModel, Error>) in
-            switch result {
-            case .success(let responseModel):
-                print("成功: \(responseModel.result), メッセージ: \(responseModel.message)")
-            case .failure(let error):
-                print("エラー: \(error)")
-            }
-        }
     }
     
     override func viewWillAppear(_ animated: Bool) {

@@ -20,8 +20,8 @@
 		1F4531B72B646BF300BEBEB0 /* AlamofireSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4531B62B646BF300BEBEB0 /* AlamofireSampleUITests.swift */; };
 		1F4531B92B646BF300BEBEB0 /* AlamofireSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4531B82B646BF300BEBEB0 /* AlamofireSampleUITestsLaunchTests.swift */; };
 		1F4531C72B646D9C00BEBEB0 /* MyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4531C62B646D9C00BEBEB0 /* MyModel.swift */; };
+		1F6FEC162C9DF6EB00EAE347 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6FEC152C9DF6EB00EAE347 /* AFHTTPRequestOperationManager.m */; };
 		1F8697CD2C04ACDA00CC2965 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8697CC2C04ACDA00CC2965 /* UITextFieldExtension.swift */; };
-		1F8697D02C13A6DF00CC2965 /* TestUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8697CF2C13A6DF00CC2965 /* TestUIView.swift */; };
 		1FA520272C86605400E39993 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA520262C86605400E39993 /* NetworkManager.swift */; };
 		1FC543BE2BDE3344001126D2 /* BrowsingHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC543BD2BDE3344001126D2 /* BrowsingHistoryCell.swift */; };
 		1FC543C02BDE335A001126D2 /* BrowsingHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FC543BF2BDE335A001126D2 /* BrowsingHistoryCell.xib */; };
@@ -33,6 +33,8 @@
 		1FC543CE2BE0D947001126D2 /* SearchUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC543CD2BE0D947001126D2 /* SearchUtil.swift */; };
 		1FC543D02BE221DD001126D2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 1FC543CF2BE221DD001126D2 /* PrivacyInfo.xcprivacy */; };
 		1FC5442E2BFCC171001126D2 /* UIApplecationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC5442D2BFCC171001126D2 /* UIApplecationExtension.swift */; };
+		1FDDFD042CBAA35E009110C0 /* Untitled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDDFD032CBAA35D009110C0 /* Untitled.swift */; };
+		1FDDFD062CBAA373009110C0 /* CustomUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDDFD052CBAA373009110C0 /* CustomUILabel.swift */; };
 		1FDE89F02BDC218C006E6E1D /* UserDefaultExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDE89EF2BDC218C006E6E1D /* UserDefaultExtension.swift */; };
 		1FDE89F22BDC8B32006E6E1D /* SearchViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FDE89F12BDC8B32006E6E1D /* SearchViewController.storyboard */; };
 		1FDE89F42BDC8B46006E6E1D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDE89F32BDC8B46006E6E1D /* SearchViewController.swift */; };
@@ -78,8 +80,9 @@
 		1F4531B62B646BF300BEBEB0 /* AlamofireSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireSampleUITests.swift; sourceTree = "<group>"; };
 		1F4531B82B646BF300BEBEB0 /* AlamofireSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1F4531C62B646D9C00BEBEB0 /* MyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModel.swift; sourceTree = "<group>"; };
+		1F6FEC142C9DF6EB00EAE347 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		1F6FEC152C9DF6EB00EAE347 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
 		1F8697CC2C04ACDA00CC2965 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
-		1F8697CF2C13A6DF00CC2965 /* TestUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUIView.swift; sourceTree = "<group>"; };
 		1FA520262C86605400E39993 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		1FA520282C90700B00E39993 /* AlamofireSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlamofireSample-Bridging-Header.h"; sourceTree = "<group>"; };
 		1FC543BD2BDE3344001126D2 /* BrowsingHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowsingHistoryCell.swift; sourceTree = "<group>"; };
@@ -92,6 +95,8 @@
 		1FC543CD2BE0D947001126D2 /* SearchUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUtil.swift; sourceTree = "<group>"; };
 		1FC543CF2BE221DD001126D2 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		1FC5442D2BFCC171001126D2 /* UIApplecationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplecationExtension.swift; sourceTree = "<group>"; };
+		1FDDFD032CBAA35D009110C0 /* Untitled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Untitled.swift; sourceTree = "<group>"; };
+		1FDDFD052CBAA373009110C0 /* CustomUILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUILabel.swift; sourceTree = "<group>"; };
 		1FDE89EF2BDC218C006E6E1D /* UserDefaultExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultExtension.swift; sourceTree = "<group>"; };
 		1FDE89F12BDC8B32006E6E1D /* SearchViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchViewController.storyboard; sourceTree = "<group>"; };
 		1FDE89F32BDC8B46006E6E1D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -137,8 +142,10 @@
 		1F0E28BC2C98353F00BC3B48 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
+				1FDDFD032CBAA35D009110C0 /* Untitled.swift */,
 				1F0E28BD2C98355400BC3B48 /* View */,
 				1F0E28BE2C98356100BC3B48 /* ViewController */,
+				1FDDFD052CBAA373009110C0 /* CustomUILabel.swift */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -185,6 +192,7 @@
 		1F4531912B646BF100BEBEB0 /* AlamofireSample */ = {
 			isa = PBXGroup;
 			children = (
+				1F6FEC112C9DF68000EAE347 /* Objective-C */,
 				1F6FEC102C9DF63700EAE347 /* Swift */,
 				1F4531922B646BF100BEBEB0 /* AppDelegate.swift */,
 				1F4531942B646BF100BEBEB0 /* SceneDelegate.swift */,
@@ -234,10 +242,18 @@
 			path = Swift;
 			sourceTree = "<group>";
 		};
+		1F6FEC112C9DF68000EAE347 /* Objective-C */ = {
+			isa = PBXGroup;
+			children = (
+				1F6FEC142C9DF6EB00EAE347 /* AFHTTPRequestOperationManager.h */,
+				1F6FEC152C9DF6EB00EAE347 /* AFHTTPRequestOperationManager.m */,
+			);
+			path = "Objective-C";
+			sourceTree = "<group>";
+		};
 		1F8697CE2C13A6BE00CC2965 /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				1F8697CF2C13A6DF00CC2965 /* TestUIView.swift */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -349,6 +365,7 @@
 				1F45318C2B646BF100BEBEB0 /* Frameworks */,
 				1F45318D2B646BF100BEBEB0 /* Resources */,
 				DC6B21E6C3958BF3881CA163 /* [CP] Copy Pods Resources */,
+				1FDDFD072CD3AB8F009110C0 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -474,6 +491,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1FDDFD072CD3AB8F009110C0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which \"${PODS_ROOT}/SwiftLint/swiftlint\" >/dev/null; then\n    ${PODS_ROOT}/SwiftLint/swiftlint\nelse\necho \"warning: SwiftLint not installed, download from \n      https://github.com/realm/SwiftLint\"\nfi\n";
+		};
 		2CFA06695514CA962A59C40E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -565,11 +600,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F4531972B646BF100BEBEB0 /* BrowsingHistoryViewController.swift in Sources */,
+				1FDDFD062CBAA373009110C0 /* CustomUILabel.swift in Sources */,
 				1FC543CE2BE0D947001126D2 /* SearchUtil.swift in Sources */,
 				1FC543CB2BDF8332001126D2 /* ThemaSearchCell.swift in Sources */,
 				1FC543C62BDE3523001126D2 /* UICollectionViewExtension.swift in Sources */,
-				1F8697D02C13A6DF00CC2965 /* TestUIView.swift in Sources */,
 				1F0E28C62C9835C100BC3B48 /* SettingViewController.swift in Sources */,
+				1FDDFD042CBAA35E009110C0 /* Untitled.swift in Sources */,
 				1FC543BE2BDE3344001126D2 /* BrowsingHistoryCell.swift in Sources */,
 				1FDE89F42BDC8B46006E6E1D /* SearchViewController.swift in Sources */,
 				1FC5442E2BFCC171001126D2 /* UIApplecationExtension.swift in Sources */,
@@ -581,6 +617,7 @@
 				1FC543C22BDE3488001126D2 /* UITableViewExtension.swift in Sources */,
 				1F45319D2B646BF100BEBEB0 /* AlamofireSample.xcdatamodeld in Sources */,
 				1F4531952B646BF100BEBEB0 /* SceneDelegate.swift in Sources */,
+				1F6FEC162C9DF6EB00EAE347 /* AFHTTPRequestOperationManager.m in Sources */,
 				1FC543C42BDE34E3001126D2 /* NSObjectProtocolExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -772,8 +809,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = SettingViewController;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -781,11 +820,16 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = test.com.jp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "AlamofireSample/AlamofireSample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 6.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -805,8 +849,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = SettingViewController;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -814,10 +860,15 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = test.com.jp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "AlamofireSample/AlamofireSample-Bridging-Header.h";
-				SWIFT_VERSION = 6.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

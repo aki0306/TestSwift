@@ -1,0 +1,29 @@
+#チェック対象のフォルダを指定
+included:
+
+#除外するフォルダを指定
+excluded:
+  - Pods
+
+
+
+# 必要に応じて有効化するルールを追加
+opt_in_rules:
+  - some_opt_in_rule
+
+# 必要に応じて無効化するルールを追加
+disabled_rules:
+  - some_disabled_rule
+
+# force_cast ルールを警告レベルに設定
+force_cast:
+  severity: warning
+
+# すべてのルールを警告として表示
+analyzer_rules:
+  rule_name: warning # 各ルール名を warning に設定
+
+# line_length ルールを 200 文字に設定し、違反を警告として表示
+line_length:
+  warning: 200
+  error: 250 # 必要であれば、エラーレベルの制限を設定

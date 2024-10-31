@@ -44,32 +44,6 @@ class SearchViewController: UIViewController {
     }
     
     @objc func refreshData() {
-        let num = 123
-        let urlString = "https://api.example.com/data/\(num)"
-        let customUserAgent = "MyCustomApp/1.0"
-        
-        let parameters: Parameters = [
-            "key1": "value1",
-            "key2": "value2"
-        ]
-        
-        NetworkManager.shared.request(url: urlString, method: .get, parameters: nil, headers: nil, customUserAgent: customUserAgent) { (result: Result<MyModel, AFError>) in
-            switch result {
-            case .success(let model):
-                print("GETデータ: \(model)")
-            case .failure(let error):
-                print("GETエラー: \(error)")
-            }
-        }
-        
-        NetworkManager.shared.request(url: urlString, method: .post, parameters: parameters, headers: nil, customUserAgent: customUserAgent) { (result: Result<MyModel, AFError>) in
-            switch result {
-            case .success(let model):
-                print("POSTデータ: \(model)")
-            case .failure(let error):
-                print("POSTエラー: \(error)")
-            }
-        }
     }
     
 }
